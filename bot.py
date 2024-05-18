@@ -2,7 +2,7 @@
 # CLI бот помічник
 
 from address_book import AddressBook, Record
-from decorators import input_error
+from errors import input_error
 
 def parse_input(user_input):
     parts = user_input.strip().split(maxsplit=2)
